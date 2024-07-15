@@ -9,6 +9,26 @@
  * Copyright (C) 2018 http://alvarotrigo.com/fullPage - A project by Alvaro Trigo
  */
 
+
+ .image-inverted{
+    filter: invert(100%);
+  }
+
+
+.rotate{
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(359deg);
+  
+    }
+  }
+
 .fp-enabled body,
 html.fp-enabled {
     margin: 0;
